@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 
-const developer = 'Reptetion#6379'
+const developer = 'Jeremy#2029'
 
 exports.run = async(client, message, args) => {
 
