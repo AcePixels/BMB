@@ -25,7 +25,6 @@ leveling.AddXp(message.author.id, 10)
 if (profile.xp + 10 > 100) {
 await leveling.AddLevel(message.author.id, 1)
 await leveling.SetXp(message.author.id, 0)
-message.reply(`GG! You just advanced to level ${profile.level + 1}! 🆙`).then(msg => msg.delete(10000));
 }
  
 
