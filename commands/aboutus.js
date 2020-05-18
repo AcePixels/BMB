@@ -6,7 +6,7 @@ exports.run = async(client, message, args) => {
 
 const about = new Discord.RichEmbed() 
 .setColor('#7739C4')
-.setTitle('Creators of Glitch')
+.setTitle('Glitch Info')
 .setURL('https://discord.gg/NCsRGN7')
 .setDescription(`Hello! I am Glitch! My prefix is g!\n\n` +
 '**What is Glitch?**\n\n' +
